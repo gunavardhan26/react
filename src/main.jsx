@@ -5,7 +5,8 @@ import { createRoot } from 'react-dom/client'
 // import InLine from './styles/InLine.jsx'
 // import Comp1 from './styles/Comp1.jsx'
 import './styles/globally.css';
-import External from './styles/External.jsx';
+// import External from './styles/External.jsx';
+import Ref from './useRef/Ref.jsx';
 // import Cbc from './component/Cbc.jsx'
 // import Fbc from './component/Fbc.jsx'
 // import ClassIntro from './component/ClassIntro.jsx'
@@ -26,6 +27,7 @@ createRoot(document.getElementById('root')).render(
     {/* <State /> */}
     {/* <InLine /> */}
     {/* <Comp1 /> */}
-    <External />
+    {/* <External /> */}
+    <Ref />
   </StrictMode>,
 )
