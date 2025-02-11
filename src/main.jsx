@@ -4,10 +4,12 @@ import './index.css'
 import App from './App.jsx'
 // import InLine from './styles/InLine.jsx'
 // import Comp1 from './styles/Comp1.jsx'
-import './styles/globally.css';
+// import './styles/globally.css';
 // import External from './styles/External.jsx';
-import Ref from './useRef/Ref.jsx';
-import List from './List-keys/List.jsx';
+// import Ref from './useRef/Ref.jsx';
+// import List from './List-keys/List.jsx';
+import CompA from './useContext/CompA.jsx';
+import UseEffect from './useEffect/UseEffect.jsx';
 // import Cbc from './component/Cbc.jsx'
 // import Fbc from './component/Fbc.jsx'
 // import ClassIntro from './component/ClassIntro.jsx'
@@ -30,6 +32,8 @@ createRoot(document.getElementById('root')).render(
     {/* <Comp1 /> */}
     {/* <External /> */}
     {/* <Ref /> */}
-    <List/>
+    {/* <List/> */}.
+    {/* <CompA/> */}
+    <UseEffect/>
   </StrictMode>,
 )
