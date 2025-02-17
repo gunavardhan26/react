@@ -1,7 +1,14 @@
 {
-    "users":[{
-        "name":"abhi",
-        "id": 1,
-        "role": "developer"
-    }]
+  "users": [
+    {
+      "name": "abhi",
+      "id": "1",
+      "role": "developer"
+    },
+    {
+      "id": "2",
+      "name": "Vardhan",
+      "role": "Developer"
+    }
+  ]
 }
